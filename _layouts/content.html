@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+
+
+<div class=" vpad--xxl {{page.colour}} " id="top" >
+  <div class="container">
+    <div class="width width--xl  text--left text text--white " >
+       <div class="text--xl">{{page.intro}}</div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
+
+
+{% if page.page-nav %}{% include nav/page.html %}{% endif %}
+
+
+{% for section in site.data[page.id] %}
+
+    <div id="{{section.id}}" class="harvey{% cycle '', ' harvey--swap' %}  {% cycle 'bg--f-sand', 'bg--f-blue' %}">
+      <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.img}}.jpg');"></div>
+      <div class="space--xs"></div>
+      <div class="harvey__text boxpad--lg text text--xl  {% cycle 'text--black ', 'text--white ' %}  ">
+        <h2 class="title serif-title bv-headline-divider {% cycle 'text--blue ', 'text--white ' %} ">{{section.title}}</h2>
+        <p>{{section.description}}</p>
+        <div class="space--xs"></div>
+      </div>
+    </div>
+
+ {% endfor %}
+
+  <div class=" vpad--sm bg--f-lightblue " >
+    <div class="container">
+      <div class="width width--xl text--center " >
+          <a href="#top" ><div class="bv-btn-up"></div></a>
+      </div>
+    </div>
+  </div>
+
+{% include offer/regions-offers.html %}

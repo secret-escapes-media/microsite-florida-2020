@@ -1,0 +1,268 @@
+// general styles for the project that wouldn't be a reuseable component
+
+
+/* ==========================================================================
+   Dividers & Alignment
+   ========================================================================== */
+
+   .bv-title-divider::after{
+     content: url(../img/icons/flower.svg);
+     display: block;
+     margin-top: 3px;
+     margin-bottom: -2px;
+     transform: scale(.65);
+
+     @include bp($md) {
+       content: url(../img/icons/divider-w.svg);
+       display: block;
+       margin-top: 10px;
+       transform: scale(.5);
+
+     }
+
+     @include bp($xl) {
+       content: url(../img/icons/divider-w.svg);
+       display: block;
+       margin-top: 2px;
+       transform: scale(.3);
+
+     }
+   }
+
+
+$circle-height: 3.4rem;
+
+.bv-btn-up{
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: $circle-height;
+  height: $circle-height;
+  min-width: $circle-height;
+  min-height: $circle-height;
+  background-color: $white;
+  border-radius: $circle-height;
+  background-repeat: no-repeat;
+  background-image: url('../img/icons/arrow-left.svg');
+  background-size: auto ($circle-height/2);
+  background-position: 48% center;
+  transform: rotate(90deg);
+}
+
+.bv-headline-divider::after {
+    content: ('========');
+    display: block;
+    font-size: $s5;
+    letter-spacing: -8px;
+    margin: 5px 0 -8px 2px;
+  }
+
+.bv-lineheight{
+    line-height: 1.2em;
+   }
+
+
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+
+  &--blue{
+    background-image: none!important;
+    background-color: $f-blue;}
+}
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+  }
+}
+
+
+
+/* ==========================================================================
+florida map + elements
+========================================================================== */
+
+
+
+.bv-box-shadow{
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+}
+
+.bv-map-svg{
+  min-height:380px;
+  margin-left: -10px;
+
+  @include bp($sm) {
+
+    min-height:400px;
+    margin-left: -10px;
+
+  }
+  @include bp($xxl) {
+
+    min-height:500px;
+
+  }
+}
+
+
+.bv-map{
+  width:100%;
+  max-width:600px;
+  height:auto;
+  margin:0 ;
+
+ @include bp($xl) {
+   width:100%;
+    margin:0 4%;
+ }
+
+ @include bp($xxl) {
+   max-width: 600px;
+    margin:0 4%;
+ }
+}
+
+
+.bv-close-popup{
+  position: absolute;
+  margin-top: -20px;
+  margin-right: 0px;
+  margin-left: 89%;
+  padding: 0 5px;
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: $white;
+
+  @include bp($sm) { margin-left: 90%; }
+
+  @include bp($md) { margin-left: 92%; margin-top: -20px; }
+
+  @include bp($lg) {
+    margin-left: 95%;
+    margin-top: -20px;
+    font-size: 26px;
+    padding: 2px 5px;
+    width: 50px;
+    height: 50px; }
+}
+
+
+.bv-preview-wrapper{
+
+  position:absolute;
+  width: 89%;
+  z-index: 9999;
+  margin-top: -390px;
+
+  @include bp($sm) {
+    position:absolute;
+    width: 89%;
+    z-index: 9999;
+    margin-top: -370px;
+  }
+
+  @include bp($md) {
+    position:absolute;
+    width: 89%;
+    z-index: 9999;
+    margin-top: -88%;
+  }
+
+  @include bp($lg) {
+    position:absolute;
+    width: 79%;
+    left: 10%;
+    z-index: 9999;
+    margin-top: -75%;
+  }
+
+  @include bp($xxl) {
+    position:relative;
+    border-bottom: 3px solid $f-red;
+    width:100%;
+    left: auto;
+    height:auto;
+    margin-top: auto;
+  }
+}
+
+.bv-preview-default{
+  position:relative;
+  border-bottom: 3px solid $f-red;
+  width:100%;
+  height:auto;
+  border-bottom: none;
+}
+
+
+.bv-hidden{
+  display: none;
+}
+.bv-show{
+  display: block;
+}
+
+.bv-mob-hide {
+  display: none;
+  @include bp($xxl) {
+    display: block;
+  }
+}
+
+.bv-mob-show {
+  display: block;
+  @include bp($xxl) {
+    display: none;
+  }
+}
+
+.bv-mob-arrow {
+  height: 0px;
+  margin-top: -22px;
+  margin-left: 45%;
+  position: absolute;
+  z-index:1000;
+}
+
+
+
+/* ==========================================================================
+Flight tag - Offers
+========================================================================== */
+
+.flight-tag {
+  position: absolute;
+  top: $s-2;
+  left: $s-2;
+  display: block;
+  width: 50%;
+
+  @include bp($sm){
+    top: $s0;
+    left: $s0;
+    width: 146px;
+  }
+}

@@ -1,0 +1,24 @@
+# Site settings
+title: Florida
+client:
+  name: Willkommen im Sunshine State
+  link: "https://www.visitflorida.com/de.html"
+core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=florida_DE_2019
+description: >
+  Spektakuläre Naturparadiese, aufregende Kunst- und Kulturerlebnisse und funkelnde feine Sandstrände. Erleben Sie Ihr ganz persönliches Roadtrip-Abenteuer entlang der Westküste und genießen Sie das pure und echte Florida.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/de/florida" # the subpath of your site, e.g. /blog/
+img:     "/de/florida/_assets/img"
+css:     "/de/florida/_assets/css"
+js:      "/de/florida/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed

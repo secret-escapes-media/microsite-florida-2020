@@ -1,0 +1,54 @@
+- title: "Ikonisches Design unter der Sonne von Sarasota"
+  id: sarasota
+  location: The Sarasota Modern, Sarasota, Florida, USA
+  description: Legerer Lifestyle & sorglose Stranderholung im Sunshine State Florida – inkl. WLAN
+  price: 64
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 29
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/91204/bf9528ab_916c_48ba_9e9c_3a91dbd1151b.jpg"
+  flight-tag: #
+  link: "http://bit.ly/2TMB2Ef"
+
+- title: "Lichtblicke am Südzipfel der USA"
+  id: florida-keys
+  location: Lighthouse Court Hotel, Key West, Florida, USA
+  description: Wie Hemingway im Sunshine State logieren inkl. Frühstück
+  price: 62
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 22
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/91268/f8d738e4_e1a0_402a_b580_a4409f5a7f97.jpg"
+  flight-tag: #
+  link: "http://bit.ly/2JU2sZd"
+
+- title: "Idyllisches Inn auf den Keys"
+  id: florida-keys
+  location: Merlin Guest House, Key West, Florida, USA
+  description: "Klein & fein: Zimmer & Cottages um einen Innenhofgarten mit Pool inkl. kontinentalem Frühstück"
+  price: 116
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 24
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/91277/77068e87_3cb9_4f15_851d_dba9cfe00362.jpg"
+  flight-tag: #
+  link: "http://bit.ly/2FEP4Td"
+
+- title: "Sonnenverwöhnt in Floridas Südwesten"
+  id: naples
+  location: The Inn on Fifth, Naples, Florida, USA
+  description: King-Suiten mit Zugang zur exklusiven Club-Lounge oder Deluxe-Zimmer
+  price: 72
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 20
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/45179/25b33dc1_094c_4d9c_9459_8fdb78d39452.jpg"
+  flight-tag: #
+  link: "http://bit.ly/2T2SW5m"
+
+- title: "Beach-Lifestyle im Sunshine State"
+  id: stpete-clearwater
+  location: Wyndham Grand Clearwater Beach, Florida, Vereinigte Staaten
+  description: "An Strand und Pool entspannen & Floridas Vielfalt entdecken"
+  price: 170
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 27
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/92352/e63f096a_bd22_4f81_806f_68cd1af34b04.jpg"
+  flight-tag: #
+  link: "http://bit.ly/2KniUBi"

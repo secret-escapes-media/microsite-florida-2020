@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<!-- Intro /-->
+<div class="vpad--xl" >
+  <div class="container">
+    <div class="width width--xl text--left text" >
+       <div class="text--xl">{{page.intro}}</div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Section Map /-->
+<div class="vpad--lg bg--f-blue bv-mob-show">
+  <div class="container">
+    <div class="width width--xl text--white text--left text">
+       <div class="serif-title serif-title--lg bv-preview-default">{{page.map-title}}</div>
+       <div class="text text--xxl text--left">Um ausgewählte Highlights zu sehen, klicken Sie auf die blauen Regionen auf der Karte.</div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
+<div class="bv-mob-arrow bv-mob-show">
+  <svg height="25" width="50" ><polygon  points='0,0 50,0 25,25' fill='#075f84' /></svg>
+</div>
+<div class="vpad--lg bg--f-lightblue" style="margin: 0px!important; padding:0px!important;">
+  <div class="container" >
+    <div class="bob bob--swap">
+      <!-- Map /-->
+      <div class="bob__img" style=" margin-top: 0px!important; padding-top:0px!important;">
+        <div class="bv-map">
+        {% include page/map/map.html %}
+        </div>
+      </div>
+
+      <!-- Popups /-->
+      <div class="bob__img">
+        <div class="space--sm"></div>
+        <div class="serif-title serif-title--lg text--white bv-preview-default bv-mob-hide">{{page.map-title}}</div>
+        <div class="space--sm"></div>
+          <div  class=" bv-preview-wrapper bg--white bv-box-shadow bv-mob-hide bv-show"  id="pt-preview-0">
+            <div class="text text--xl text--left boxpad--lg"  >Um ausgewählte Highlights zu sehen, klicken Sie mit der Maus auf die blauen Regionen auf der Karte.</div>
+            <div class="space--xs"></div>
+          </div>
+
+        {% for popup in page.map-popup %}
+        <div class=" bv-preview-wrapper bg--white bv-box-shadow bv-hidden" id="pt-preview-{{popup.id}}">
+          <a onclick="toggle('close')" class="bv-mob-show ">
+            <div class="bv-close-popup">x</div>
+          </a>
+          <a href="{{site.baseurl}}/{{popup.region}}">
+          <div class="bg-img bg-img--21-9" style="background-image: url('{{site.img}}/content/{{popup.region}}/hero.jpg');">
+            <div class="bg-img__content">
+              <div class="serif-title serif-title--lg ">{{popup.title}}</div>
+            </div>
+          </div>
+          <div class="text--lg text--black boxpad--lg text bv-mob-show" >{{popup.content-mob}} <span class="text--red text--bold">Jetzt&nbsp;entdecken!</span></div>
+          <div class="text--lg text--black boxpad--lg text bv-mob-hide" >{{popup.content}} <span class="text--red text--bold">Jetzt&nbsp;entdecken!</span></div>
+          <div class="space--xxs"></div>
+          </a>
+        </div>
+        {% endfor %}
+
+        <div class="space--xl"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+total = document.getElementsByClassName("bv-box-shadow");
+function toggle(n){
+//alert(n);
+	for(i = 0; i<= total.length; i++){
+		document.getElementById('pt-preview-'+i).style.display ="none";
+		if (i == n){
+			document.getElementById('pt-preview-'+n).style.display ="block";
+
+		}
+	}
+}
+</script>
