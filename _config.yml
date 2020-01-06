@@ -3,16 +3,16 @@ title: Florida
 client:
   name: Willkommen im Sunshine State
   link: "https://www.visitflorida.com/de.html"
-core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=florida_DE_2019
+core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=florida_DE_2020
 description: >
   Spektakuläre Naturparadiese, aufregende Kunst- und Kulturerlebnisse und funkelnde feine Sandstrände. Erleben Sie Ihr ganz persönliches Roadtrip-Abenteuer entlang der Westküste und genießen Sie das pure und echte Florida.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/florida" # the subpath of your site, e.g. /blog/
-img:     "/de/florida/_assets/img"
-css:     "/de/florida/_assets/css"
-js:      "/de/florida/_assets/js"
+baseurl: "/de/2020/florida" # the subpath of your site, e.g. /blog/
+img:     "/de/2020/florida/_assets/img"
+css:     "/de/2020/florida/_assets/css"
+js:      "/de/2020/florida/_assets/js"
 
 
 # Build settings
