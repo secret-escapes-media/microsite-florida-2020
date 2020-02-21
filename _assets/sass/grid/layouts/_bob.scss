@@ -6,7 +6,7 @@
   // default styles
   display: flex;
   flex-direction: column;
-  align-items: top;
+  align-items: center;
   @include bp($bp) {
     flex-direction: row;
     &--swap { flex-direction: row-reverse; }
@@ -26,11 +26,11 @@
   }
   @include bp($bp) {
     margin-top: -$desktop-gutter;
-    //margin-left: -$desktop-gutter;
+    margin-left: -$desktop-gutter;
     & > &__img,
     & > &__text {
       padding-top: $desktop-gutter;
-      //padding-left: $desktop-gutter;
+      padding-left: $desktop-gutter;
     }
   }
 
@@ -38,7 +38,6 @@
   &__text,
   &__img {
     width: 100%;
-     margin-left: auto;  margin-right: auto;
     max-width: $lg;
     @include bp($bp) {
       width: 60%;

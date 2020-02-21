@@ -8,7 +8,7 @@ var stickyNavContainer = '.page-nav__container';
 var stickyNavModifier  = 'is-stuck';
 
 function stickyNav(){
-//alert(stickyNavClass);
+
 
   var scrollTop = $(document).scrollTop();
   var nav       = $(stickyNavClass);

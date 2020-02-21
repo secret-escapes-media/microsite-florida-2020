@@ -1,7 +1,7 @@
 - id: one
-  title: Funkelndes Paradies
+  title: Unterwegs auf dem Wasser
   img: bg-img1
-  description: "Das ganze Jahr über locken Sarasotas endlose weiße Sandstrände mit traumhaften Bedingungen: Der sonnenverwöhnte Küstenabschnitt ist weltberühmt für seine glitzernden Strände, die aus feinstem Quarzsandstein bestehen. Trotz üppiger Sonnenstunden wird der Sand dank seiner reflektierenden Eigenschaft nie zu heiß. Der Siesta Beach zählt übrigens zu den schönsten Stränden der Welt. Auch Venice Beach ist einen Besuch wert und begeistert als „Shark Tooth Capital of the World“ mit fossilen Haifischzähnen, die man mit etwas Glück am Strand&nbsp;findet. "
+  description: "Ein einziger Blick auf die Landkarte genügt, um festzustellen, dass sich in Greater Fort Lauderdale das Leben auf dem Wasser abspielt. Dutzende Kanäle und Flussarme durchziehen die Region entlang des Intracoastal Waterways im Süden Floridas. Machen Sie eine Sightseeing-Tour mit einem Wassertaxi auf dem New River oder mieten Sie sich direkt eine Luxusyacht und entdecken Sie die opulenten Heime und Yachten der Schönen und Reichen. Wassertaxis sind eine angenehme Alternative zu Autos, um sich fortzubewegen - für die Sportlicheren gibt es Kajaks oder Stand-up Paddling."
 
 
 
@@ -9,9 +9,9 @@
 
 
 - id: two
-  title: Kosmos der Kunst
+  title: Strandglück
   img: bg-img2
-  description: "Sarasota gilt als kulturelles Zentrum Floridas, denn die unterschiedlichen Einflüsse tragen zu einem ganz besonderen Kunstgenuss bei: Moderne Kunstwerke und historische Kulturschätze der unterschiedlichsten Völker Floridas sind im weltbekannten Kunstmuseum 'Ringling Museum of Art' ausgestellt und in den vielen Kunstgalerien zu finden. Hochkarätige Musik-, Tanz- und Theaterveranstaltungen lassen die Herzen der Besucher in der Van Wezel Performing Arts Hall schneller schlagen. Alte Klassiker, Broadway Hits und moderne Stücke werden hier gleichermaßen&nbsp;gespielt. "
+  description: "Let the sunshine in: über 38 Kilometer Strand verbinden die acht Küstenstädte Greater Ford Lauderdales: Deerfield Beach, Hillsboro Beach, Pompano Beach, Fort Lauderdale, Lauderdale-by-the-sea, Dania Beach, Hollywood und Hallandale Beach. Ein großer Spaß ist es, sich an den langen Promenaden in Fort Lauderdale oder in Hollywood die Beine zu vertreten und auf Menschenschau zu gehen. Im Pompano Beach können Taucher dagegen bei Wracksuche leicht fündig werden und Meeresfrüchte-Gourmets Geschmacksexplosionen erleben. Lieber ein kleinerer Strand erwünscht? Auf nach Lauderdale-By-The-Sea!"
 
 
 
@@ -20,9 +20,9 @@
 
 
 - id: three
-  title: Zirkushauptstadt
+  title: Lifestyle im Sunshine State
   img: bg-img3
-  description: "Zirkus würde man hier am allerwenigsten erwarten, doch Sarasota ist tatsächlich die Zirkushauptstadt der USA. Großartige Artisten zeigen in trickreichen Shows ihr Können. John Ringling, der 1927 hier sein Winterquartier aufschlug, folgten bis heute zahlreiche Kollegen. Das warme Klima und die multikulturelle Atmosphäre präsentieren einzigartige Bedingungen, die zu diesem besonderem Zirkusflair im amerikanischen Stil beitragen. Unbedingt sollten Sie auch das Circus Museum besuchen: Historische Plakate, originelles Equipment sowie kleine Kurzfilme erzählen die Geschichte dieses magischen&nbsp;Ortes."
+  description: "Von den Strandpromenaden in Fort Lauderdale führt der Weg nach Downtown, wo sich die beachtliche Kreativszene Süd-Floridas entfaltet - in Musik, Fashion oder Kunst. Eine der ersten Adressen für Shopping, Cafés und Kunst ist der Las Olas Boulevard. Hier lernen Sie im Ah-Tah-Thi-Ki Museum mehr über die Seminole, erleben kontemporäre Kunst in der Bellagio Gallery und lernen über die LGBT-Geschichte im Stonewall National Museum. In Hollywood bringt das Mural Project die Gemeinschaft bei Events und Aktivitäten zusammen – die Graffiti-Szene steht Sao Paulo und Berlin in nichts nach."
 
 
 
@@ -30,9 +30,9 @@
 
 
 - id: four
-  title: Myakka River State&nbsp;Park
+  title: Greater Fort Lauderdale für&nbsp;Gourmets
   img: bg-img4
-  description: "Den ältesten Naturpark Floridas erkunden Sie am besten zu Fuß: Auf Wanderwegen entdecken Sie die außergewöhnliche Pflanzen- und Tierwelt der weitläufigen Flusslandschaft im Myakka River State Park. Die beste Aussicht ermöglicht Ihnen der Baumwipfelpfad: Von hier aus lassen sich Fischadler, Falken und viele weitere Wildtiere in ihrem Element beobachten. Auf einer Kajaktour entlang des Myakka Rivers können Sie Alligatoren in ihrem natürlichen Lebensraum beim Sonnenbaden&nbsp;sichten."
+  description: "Hier läuft jedem das Wasser im Mund zusammen: die Foodie-Szene von Greater Fort Lauderdale kann sich sehen lassen! Mehr als 4.000 gastronomische Möglichkeiten stehen bereit, aufstrebende Sterneköche lesen Ihnen jeden Wunsch von den Lippen. Haben Sie schon von Dock & Dine gehört? Hierbei docken Sie direkt mit ihrem Boot ans Restaurant an, wo Sie dann nur noch ein paar Schritte vom Genuss trennen. Zum Beispiel bei Billy’s Stone Crab, das über die Landesgrenzen für seine Krustentiere bekannt ist. Nach so viel Fisch ist ein Craft Beer auf dem Ale Trail eben das Richtige, um den Abend in die Nacht überzuleiten."
 
 
 
@@ -40,9 +40,9 @@
 
 
 - id: five
-  title: Artenvielfalt vor der&nbsp;Küste
+  title: Entspannung im Grünen
   img: bg-img5
-  description: "Die schillernde Unterwasserwelt Floridas beobachten Sie im Mote Marine Laboratory and Aquarium auf Lido Key, ohne nass zu werden. Über 100 verschiedene Meeresbewohner leben hier in großen und kleinen Aquarien. Beobachten Sie Tiefseefische, streicheln Sie Stachelrochen oder finden Sie kleine Seepferdchen-Babys zwischen den Seegrashalmen. Das Mote Marine Laboratory setzt sich für den Erhalt der Arten mit Aufklärung und Wissensübermittlung ein und bei der wöchentlichen Fütterung erfahren Sie, welche Meeresräuber sich vor der Küste Sarasotas&nbsp;tummeln."
+  description: "Genug von Menschen? Auf zu den Flamingo Gardens westlich von Fort Lauderdale, wo es sich neben den pinken Vögeln auch Alligatoren und Panther bequem gemacht haben. Höhenflüge der etwas anderen Art gibt es in der Butterfly World zu bestaunen, wo sich 20.000 Schmetterlinge aus jedem Winkel des Erdballs zusammengefunden haben. Dann sind da noch die Gärten des Bonnet House – ein Born der Ruhe und des Friedens mit dem Hibiscusgarten, dem Desert Garden und einem Orchideenbereich. Nicht zuletzt bietet Greater Fort Lauderdale Zugang zu den Everglades, ein faszinierendes tropisches Marschland im äußersten Süden Floridas."
 
 
 

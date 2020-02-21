@@ -22,30 +22,13 @@
     max-width: $lg;
     margin-left: auto;
     margin-right: auto;
-    padding-top: $s3;
-    padding-bottom: $s7;
-    padding-left: $s2;
-    padding-right: $s2;
+    padding-top: $s4;
+    padding-bottom: $s8;
     @include bp($bp) {
-      padding-top: $s11;
-      padding-left: $s1;
-      padding-right: $s1;
-      padding-bottom: $s11;
-    }
-  }
-  &__text-map {
-    max-width: $lg;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: $s1;
-    padding-bottom: $s5;
-    padding-left: $s2;
-    padding-right: $s2;
-    @include bp($bp) {
-      padding-top: $s3;
-      padding-left: $s1;
-      padding-right: 0;
-      padding-bottom: $s14;
+      padding-top: $s12;
+      padding-left: $s4;
+      padding-right: $s4;
+      padding-bottom: $s12;
     }
   }
   &__img {
@@ -56,7 +39,6 @@
     @include bp($md) { padding-top: 66.66%; }
     @include bp($bp) { padding-top: 0; }
   }
-
   &__link {
     position: absolute;
     top: 0;

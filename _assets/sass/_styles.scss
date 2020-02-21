@@ -118,8 +118,7 @@ florida map + elements
   }
   @include bp($xxl) {
 
-    min-height:500px;
-
+    min-height:650px;
   }
 }
 
@@ -137,7 +136,7 @@ florida map + elements
 
  @include bp($xxl) {
    max-width: 600px;
-    margin:0 4%;
+    //margin:-2% 0;
  }
 }
 

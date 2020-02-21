@@ -24,6 +24,12 @@ $('.js-year').html(new Date().getFullYear());
 
 
 ///////////////////////////////////////
+//    removes no-js class on body
+///////////////////////////////////////
+$('body.no-js').removeClass('no-js');
+
+
+///////////////////////////////////////
 //      detects touch device
 ///////////////////////////////////////
 if ("ontouchstart" in document.documentElement){
@@ -41,27 +47,6 @@ if ("ontouchstart" in document.documentElement){
 $('.js-toggle-mobile-nav').on('click', function(e) {
   $('.mobile-nav').toggleClass('is-open').toggleClass('is-closed');
 });
-
-
-///////////////////////////////////////
-//        GET QUERY STRING VALUE
-//-------------------------------------
-//        ?modal=video
-//        var queryValue = queryString('modal');
-//        queryValue = "video"
-///////////////////////////////////////
-
-
-function queryString(sParam){
-  var sPageURL = window.location.search.substring(1);
-  var sURLVariables = sPageURL.split("&");
-  for (var i = 0; i < sURLVariables.length; i++){
-    var sParameterName = sURLVariables[i].split("=");
-    if (sParameterName[0] == sParam){
-      return sParameterName[1];
-    }
-  }
-}
 
 
 ///////////////////////////////////////
